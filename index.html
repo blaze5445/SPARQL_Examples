@@ -1,0 +1,157 @@
+<!doctype <!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="swiper-bundle.min.css">
+
+
+    </head>
+<body>
+       
+        
+<nav class="navbar">
+
+    <div class="navdiv">
+        
+       
+        <div class="logo"><img src="panosnap.png">  </div>
+     
+        
+    </div>
+
+
+
+</nav>
+
+
+<div class="info">
+  <h2>Pine Apartments</h2>
+  <h4>28 Jackson Ave Long Island City, NY 67234</h4>
+
+ <div class="nav">
+    <div class="nav-mobile">
+        <ul class="left">
+            <li>  <a href="#">4 <i class="fa fa-bed"></i>    |   </a>        </li>
+            <li>  <a href="#">2<i class="fa fa-bath"></i>    |</a>         </li>
+            <li>  <a href="#">2<i class="fa fa-car"></i>     |</a>         </li>
+            <li> <a href="#">56 sq.m</a></li>
+        </ul>
+    </div>
+
+
+
+ </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="slider">
+    <div class="slider-items">
+        <div  class="item active">
+           <img src="imgs/p1.jpg" />
+           <div class="caption">
+              1/3
+           </div>
+        </div>
+        <div  class="item">
+           <img src="imgs/p2.jpg" />
+           <div class="caption">
+              2/3
+           </div>
+        </div>
+        <div  class="item">
+           <img src="imgs/p3.jpg" />
+           <div class="caption">
+              3/3
+           </div>
+        </div>
+
+    </div>
+      <!-- slider controls -->
+        <div class="left-slide"><</div>
+        <div class="right-slide">></div>
+      <!-- slider controls -->
+ </div>
+
+
+
+
+
+
+
+
+<div class="iframer">
+    
+
+ <iframe    allow="xr-spatial-tracking; gyroscope; accelerometer" allowfullscreen   src="https://kuula.co/share/collection/7FHNW?logo=1&info=1&fs=1&vr=0&zoom=1&initload=0&autorotate=0.75&autop=20&thumbs=-1"></iframe>
+
+
+</div>
+
+
+
+<div class="pdf"> 
+    
+    <div id="viewer" style="width: 100%; height: 500px;"></div>
+    <script type="text/javascript" src="https://cloudpdf.io/viewer.min.js"></script>
+    <script>
+      const config = { 
+        documentId: 'e85931bb-c4ac-4667-81d2-ab755476d717',
+        darkMode: true, 
+      };
+      CloudPDF(config, document.getElementById('viewer')).then((instance) => {
+        
+      });
+    </script>
+    
+
+</div>
+
+
+
+
+
+
+
+
+<script src="main.js"></script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
